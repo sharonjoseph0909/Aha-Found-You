@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return render_template('foundyou.html')
+    return render_template("foundyou.html")
 
 @app.route("/search", methods=["GET"])
 def search():
